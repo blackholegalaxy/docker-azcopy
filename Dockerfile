@@ -6,6 +6,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
          rsync \
          libunwind8 \
+         zip \
     && rm -rf /var/lib/apt/lists/*
 
 RUN set -ex \
